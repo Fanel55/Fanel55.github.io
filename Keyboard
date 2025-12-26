@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta property="og:title" content="2025 Zero-Latency Gaming Gear Guide">
+<meta property="og:description" content="Tested specs for the best Hall-Effect keyboards. Lower your input lag now.">
+<meta property="og:image" content="https://fanel55.github.io/Wooting_60HE.jpg">
+<meta property="og:url" content="https://fanel55.github.io/">
+<meta name="twitter:card" content="summary_large_image">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Latency Gear | 2025 Guide</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background-color: #0a0a0a;
+            color: #ffffff;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        /* Hero Section */
+        header {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                        url('https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border-bottom: 4px solid #8a2be2; /* Cyber Purple */
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            max-width: 800px;
+            margin: 0 20px;
+        }
+
+        /* Content Grid */
+        .container {
+            max-width: 1100px;
+            margin: 50px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        /* Product Card */
+        .card {
+            background: #1a1a1a;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            border: 1px solid #8a2be2;
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+
+        .specs {
+            background: #252525;
+            padding: 10px;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            margin: 15px 0;
+        }
+
+        /* Affiliate Button */
+        .btn {
+            display: inline-block;
+            background-color: #8a2be2;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #a04ef6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            font-size: 0.8rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <nav style="background: #111; padding: 20px; text-align: center; border-bottom: 2px solid #8a2be2; position: sticky; top: 0; z-index: 1000;">
+    <a href="index.html" style="color: #8a2be2; margin: 0 15px; text-decoration: none; font-weight: bold; font-size: 1.1rem;">Keyboard</a>
+    <a href="mice.html" style="color: white; margin: 0 15px; text-decoration: none; font-weight: bold; font-size: 1.1rem;">Mice</a>
+    <a href="audio.html" style="color: white; margin: 0 15px; text-decoration: none; font-weight: bold; font-size: 1.1rem;">Audio</a>
+</nav>
+
+
+    <header>
+        <h1>The 2025 Zero-Latency Gaming Guide</h1>
+        <p>Top Hall-Effect Keyboards Tested for Competitive Play</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <img src="615afbe3bda6a3d9f1fb4f83_Wooting-60HE-p-1080.png" alt="Wooting 60HE">
+            <h3>Wooting 60HE+</h3>
+            <div class="specs">
+                0.1mm Actuation | 8KHz Polling | Magnetic
+            </div>
+            <p>The gold standard for rapid trigger tech.</p>
+            <a href="https://wooting.io/wooting-60he" target="_blank" rel="noopener" class="btn">View on Official Store</a>
+        </div>
+
+        <div class="card">
+            <img src="Screenshot_20251226_024754_Altex.jpg" alt="Razer Huntsman">
+            <h3>Razer Huntsman V3 Pro</h3>
+            <div class="specs">
+                Adjustable Steps | Gen-2 Optical | TKL
+            </div>
+            <p>Extreme durability with pro-grade speed.</p>
+            <a href="https://www.amazon.com/s?k=Razer+Huntsman+V3+Pro" target="_blank" rel="noopener" class="btn">Check Price on Amazon</a>
+        </div>
+
+        <div class="card">
+            <img src="Screenshot_20251226_032618_Altex.jpg" alt="SteelSeries Apex">
+            <h3>SteelSeries Apex Pro</h3>
+            <div class="specs">
+                OmniPoint 2.0 | OLED Display | RGB
+            </div>
+            <p>The most customizable tech for your desk.</p>
+            <a href="https://www.amazon.com/s?k=SteelSeries+Apex+Pro" target="_blank" rel="noopener" class="btn">Check Price on Amazon</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>As an Amazon Associate, I earn from qualifying purchases.</p>
+        <p>&copy; 2025 Elite Latency Gear</p>
+    </footer>
+
+</body>
+</html>
