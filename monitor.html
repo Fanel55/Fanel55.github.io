@@ -3,22 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elite Latency Gear | The 2025 Refresh Rate Guide</title>
+    <title>Elite Latency Gear | Monitor Guide</title>
     <style>
         body { font-family: 'Inter', sans-serif; background-color: #0a0a0a; color: #fff; margin: 0; line-height: 1.6; }
         nav { background: #111; padding: 20px; text-align: center; border-bottom: 2px solid #8a2be2; position: sticky; top: 0; z-index: 1000; }
         nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
         header { background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80'); background-size: cover; background-position: center; height: 250px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; border-bottom: 2px solid #8a2be2; }
-        
-        /* Tech Comparison Table */
-        .tech-table { max-width: 900px; margin: 40px auto; width: 90%; border-collapse: collapse; background: #111; border-radius: 12px; overflow: hidden; }
-        .tech-table th, .tech-table td { padding: 15px; border: 1px solid #333; text-align: center; }
+        .tech-table { max-width: 900px; margin: 40px auto; width: 95%; border-collapse: collapse; background: #111; border-radius: 12px; overflow-x: auto; display: block; }
+        .tech-table th, .tech-table td { padding: 12px; border: 1px solid #333; text-align: center; font-size: 0.9rem; }
         .tech-table th { background: #8a2be2; color: white; }
-
-        .tier-title { text-align: center; color: #8a2be2; margin-top: 50px; font-size: 1.8rem; text-transform: uppercase; }
+        .tier-title { text-align: center; color: #8a2be2; margin-top: 50px; font-size: 1.5rem; text-transform: uppercase; }
         .container { max-width: 1100px; margin: 20px auto; padding: 0 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
         .card { background: #1a1a1a; padding: 25px; border-radius: 12px; text-align: center; border: 1px solid #333; }
-        .specs { background: #252525; padding: 10px; border-radius: 6px; font-size: 0.9rem; margin: 15px 0; color: #a04ef6; font-weight: bold; }
+        .specs { background: #252525; padding: 10px; border-radius: 6px; font-size: 0.8rem; margin: 15px 0; color: #a04ef6; font-weight: bold; }
         .btn { display: inline-block; background-color: #8a2be2; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; }
         footer { text-align: center; padding: 40px; font-size: 0.8rem; color: #666; }
     </style>
@@ -27,81 +24,38 @@
 
     <nav>
         <a href="index.html">Home</a>
-        <a href="keyboard.html">Keyboards</a>
+        <a href="keyboards.html">Keyboards</a>
         <a href="mice.html">Mice</a>
-        <a href="monitor.html" style="color: #8a2be2;">Monitors</a>
+        <a href="monitors.html" style="color: #8a2be2;">Monitors</a>
     </nav>
 
     <header>
-        <h1>Latency & Refresh Rate Guide</h1>
-        <p>From Standard 60Hz to the Elite 540Hz Frontier.</p>
+        <h1>60Hz to 540Hz Latency Guide</h1>
+        <p>Comparing frame times and motion clarity for 2025.</p>
     </header>
 
-    <h2 style="text-align:center; margin-top:40px;">Technical Latency Comparison</h2>
+    <h2 style="text-align:center; margin-top:30px;">Technical Comparison</h2>
     <table class="tech-table">
-        <tr>
-            <th>Refresh Rate</th>
-            <th>Frame Time (Latency)</th>
-            <th>Best For</th>
-        </tr>
-        <tr><td>60Hz</td><td>16.67ms</td><td>Standard Productivity / Console</td></tr>
-        <tr><td>144Hz</td><td>6.94ms</td><td>Mainstream Competitive Gaming</td></tr>
-        <tr><td>240Hz</td><td>4.17ms</td><td>The 2025 Esports Sweet Spot</td></tr>
-        <tr><td>360Hz</td><td>2.78ms</td><td>High-Level Competitive FPS</td></tr>
-        <tr><td>540Hz</td><td>1.85ms</td><td>The Elite Esports Frontier</td></tr>
+        <tr><th>Rate</th><th>Latency</th><th>Best For</th></tr>
+        <tr><td>60Hz</td><td>16.6ms</td><td>Casual/Office</td></tr>
+        <tr><td>144Hz</td><td>6.9ms</td><td>Budget Pro</td></tr>
+        <tr><td>240Hz</td><td>4.1ms</td><td>Competitive</td></tr>
+        <tr><td>540Hz</td><td>1.8ms</td><td>Elite Esports</td></tr>
     </table>
 
-    <h2 class="tier-title">Elite Esports (360Hz - 540Hz)</h2>
+    <h2 class="tier-title">Elite Esports (360Hz+)</h2>
     <div class="container">
         <div class="card">
-            <img src="asus-540.jpg" alt="ASUS ROG PG248QP">
-            <h3>ASUS ROG Swift PG248QP</h3>
-            <div class="specs">540Hz OC | TN Panel | 0.2ms GtG</div>
-            <p>The fastest refresh rate in history. Virtually zero motion blur.</p>
-            <a href="YOUR_LINK" class="btn">View Elite Gear</a>
-        </div>
-        <div class="card">
-            <img src="zowie-360.jpg" alt="ZOWIE XL2566K">
-            <h3>BenQ ZOWIE XL2566K</h3>
-            <div class="specs">360Hz | DyAc+ Tech | TN Panel</div>
-            <p>The pro standard for CS2 and Valorant. DyAc technology kills motion blur.</p>
-            <a href="YOUR_LINK" class="btn">View Pro Gear</a>
-        </div>
-    </div>
-
-    <h2 class="tier-title">Performance Choice (144Hz - 240Hz)</h2>
-    <div class="container">
-        <div class="card">
-            <img src="msi-240.jpg" alt="MSI G274QPX">
-            <h3>MSI G274QPX</h3>
-            <div class="specs">240Hz | 1440p | Rapid IPS</div>
-            <p>The perfect balance of high resolution and elite speed for 2025.</p>
-            <a href="YOUR_LINK" class="btn">View Performance Gear</a>
-        </div>
-        <div class="card">
-            <img src="aoc-144.jpg" alt="AOC 24G2">
-            <h3>AOC 24G2</h3>
-            <div class="specs">144Hz | 1080p | IPS</div>
-            <p>The legendary entry-level high-refresh king for budget setups.</p>
-            <a href="YOUR_LINK" class="btn">View Budget King</a>
-        </div>
-    </div>
-
-    <h2 class="tier-title">Office & Casual (60Hz)</h2>
-    <div class="container">
-        <div class="card">
-            <img src="dell-60.jpg" alt="Dell UltraSharp">
-            <h3>Dell UltraSharp U2723QE</h3>
-            <div class="specs">60Hz | 4K | IPS Black</div>
-            <p>For gamers who prioritize 4K beauty and productivity over raw speed.</p>
-            <a href="YOUR_LINK" class="btn">View Office Gear</a>
+            <img src="https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=500&q=80" alt="Elite Monitor" style="width:100%; border-radius:8px;">
+            <h3>ASUS ROG Swift 540Hz</h3>
+            <div class="specs">540Hz | 0.03ms Response | TN</div>
+            <p>The fastest monitor in the world for competitive edges.</p>
+            <a href="YOUR_LINK" target="_blank" class="btn">Check Price</a>
         </div>
     </div>
 
     <footer>
-        <p style="font-style: italic; color: #888; margin-bottom: 20px;">
-            As an Amazon Associate I earn from qualifying purchases.
-        </p>
+        <p>As an Amazon Associate I earn from qualifying purchases.</p>
         <p>&copy; 2025 Elite Latency Gear</p>
     </footer>
 
