@@ -8,8 +8,8 @@
         /* D&D THEME: MAGIC & PARCHMENT */
         body { 
             font-family: 'Inter', sans-serif; 
-            background-color: #0f0c08; /* Deep charcoal wood */
-            color: #d1c4a8; /* Aged parchment text */
+            background-color: #0f0c08; 
+            color: #d1c4a8; 
             margin: 0; 
             line-height: 1.6; 
         }
@@ -30,12 +30,9 @@
             text-decoration: none; 
             font-weight: bold; 
             font-size: 0.9rem; 
-            transition: color 0.3s;
         }
-        nav a:hover { color: #8a2be2; }
         nav a.active { color: #8a2be2; border-bottom: 2px solid #8a2be2; padding-bottom: 5px; }
 
-        /* Magic Forest Header */
         header { 
             background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('https://images.unsplash.com/photo-1615818499660-30bb5816e1c7?auto=format&fit=crop&w=1200&q=80'); 
             background-size: cover; 
@@ -49,7 +46,6 @@
             border-bottom: 3px solid #d4af37;
         }
         header h1 { color: #d4af37; font-size: 2.5rem; text-transform: uppercase; letter-spacing: 3px; margin: 0; }
-        header p { font-style: italic; font-size: 1.1rem; }
 
         .container { 
             max-width: 1200px; 
@@ -60,25 +56,28 @@
             gap: 30px; 
         }
 
-        /* Adventure Cards */
         .card { 
             background: #1c1610; 
             padding: 20px; 
             border-radius: 12px; 
             text-align: center; 
             border: 1px solid #3d2f1f; 
-            transition: all 0.3s ease;
         }
-        .card:hover { transform: translateY(-10px); border-color: #d4af37; box-shadow: 0 10px 20px rgba(0,0,0,0.5); }
-        .card img { width: 100%; border-radius: 8px; margin-bottom: 15px; }
+        .card img { 
+            width: 100%; 
+            height: 250px; 
+            object-fit: contain; 
+            border-radius: 8px; 
+            margin-bottom: 15px; 
+        }
         
-        .card h3 { color: #d4af37; margin: 10px 0; }
+        .card h3 { color: #d4af37; margin: 10px 0; font-size: 1.1rem; }
         
         .specs { 
             background: #2a2218; 
             padding: 8px; 
             border-radius: 5px; 
-            font-size: 0.85rem; 
+            font-size: 0.8rem; 
             margin: 15px 0; 
             color: #f1e0b5;
             font-weight: bold; 
@@ -94,12 +93,10 @@
             text-decoration: none; 
             border-radius: 6px; 
             font-weight: bold; 
-            transition: background 0.3s;
-            width: 90%;
+            width: 80%;
         }
-        .btn:hover { background-color: #a04ef6; }
 
-        footer { text-align: center; padding: 60px 20px; font-size: 0.85rem; color: #666; background: #0a0a0a; }
+        footer { text-align: center; padding: 60px 20px; font-size: 0.85rem; color: #666; }
     </style>
 </head>
 <body>
@@ -109,7 +106,7 @@
         <a href="keyboards.html">Keyboards</a>
         <a href="mice.html">Mice</a>
         <a href="monitors.html">Monitors</a>
-        <a href="dnd.html" class="active">D&D Adventure</a>
+        <a href="d&d.html" class="active">D&D Adventure</a>
     </nav>
 
     <header>
@@ -122,7 +119,7 @@
             <img src="https://m.media-amazon.com/images/I/91M1vV-6kSL._AC_SL1500_.jpg" alt="Stranger Things D&D">
             <h3>Stranger Things: Hellfire Club</h3>
             <div class="specs">Adventure Box | 11 Dice | 15 Sheets</div>
-            <p>Step into Eddie Munson's world with 4 lost adventures and custom character sheets.</p>
+            <p>Featuring Eddie Munson's lost adventures and hours of play possibilities.</p>
             <a href="https://amzn.to/4jkmity" target="_blank" class="btn">View on Amazon</a>
         </div>
 
@@ -131,29 +128,28 @@
             <h3>Player's Handbook (2024 Edition)</h3>
             <div class="specs">Core Rules | 12 Classes | 380+ Spells</div>
             <p>The ultimate guide for 5th edition players, redesigned for faster gameplay.</p>
-            <a href="YOUR_PHB_LINK" target="_blank" class="btn">Check Price</a>
+            <a href="https://amzn.to/4jkmity" target="_blank" class="btn">Check Price</a>
         </div>
 
         <div class="card">
             <img src="https://m.media-amazon.com/images/I/81I69P5-4-L._AC_SL1500_.jpg" alt="Monster Manual">
             <h3>Monster Manual (2025 Edition)</h3>
             <div class="specs">DM Resource | 500+ Creatures</div>
-            <p>The biggest bestiary ever with 85+ brand new monsters for high-level play.</p>
-            <a href="YOUR_MM_LINK" target="_blank" class="btn">Check Price</a>
+            <p>Revised and expanded menagerie including the arch-hag and blob of annihilation.</p>
+            <a href="https://amzn.to/4jkmity" target="_blank" class="btn">Check Price</a>
         </div>
 
         <div class="card">
             <img src="https://m.media-amazon.com/images/I/71Y87tS-3AL._AC_SL1500_.jpg" alt="Iron Dice">
             <h3>Haxtec Antique Iron Metal Dice</h3>
             <div class="specs">7-Piece Set | Zinc Alloy | Leather Bag</div>
-            <p>Heavy-duty, hand-polished metal dice for a premium rolling feel.</p>
-            <a href="YOUR_DICE_LINK" target="_blank" class="btn">Check Price</a>
+            <p>Heavy-duty polyhedral dice featuring an intricate pirate metal design.</p>
+            <a href="https://amzn.to/4jkmity" target="_blank" class="btn">Check Price</a>
         </div>
     </div>
 
     <footer>
         <p>As an Amazon Associate I earn from qualifying purchases.</p>
-        <p>All technical specifications are verified for 2026 campaign standards.</p>
         <p>&copy; 2026 Elite Latency Gear Hub</p>
     </footer>
 
